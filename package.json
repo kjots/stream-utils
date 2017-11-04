@@ -1,0 +1,43 @@
+{
+  "name": "@kjots/stream-utils",
+  "version": "0.0.0",
+  "description": "Stream utilities",
+  "scripts": {
+    "build": "tsc --build packages/*",
+    "clean": "rimraf packages/*/dist packages/*/tsconfig.tsbuildinfo",
+    "lerna:bootstrap": "lerna bootstrap",
+    "prepare": "npm-run-all lerna:bootstrap clean build",
+    "test": "npm-run-all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjots/stream-utils.git"
+  },
+  "keywords": [
+    "stream",
+    "utils"
+  ],
+  "author": "Karl Juri Ots <kjots@kjots.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kjots/stream-utils/issues"
+  },
+  "homepage": "https://github.com/kjots/stream-utils#readme",
+  "engines": {
+    "node": ">=12.14.1",
+    "npm": ">=6.13.4"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@commitlint/config-lerna-scopes": "^8.3.4",
+    "@kjots/tslint-rules": "^1.4.3",
+    "@types/node": "^12.12.24",
+    "husky": "^4.0.10",
+    "lerna": "^3.20.2",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.0",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.5"
+  }
+}
