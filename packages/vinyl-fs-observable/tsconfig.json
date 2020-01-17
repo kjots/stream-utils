@@ -1,0 +1,30 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "baseUrl": "./",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "paths": {
+      "@kjots/observable-stream": [
+        "../observable-stream"
+      ],
+      "@kjots/observable-stream/*": [
+        "../observable-stream/*"
+      ],
+      "@kjots/stream-observable": [
+        "../stream-observable"
+      ],
+      "@kjots/stream-observable/*": [
+        "../stream-observable/*"
+      ]
+    }
+  },
+  "references": [
+    { "path": "../observable-stream" },
+    { "path": "../stream-observable" }
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}

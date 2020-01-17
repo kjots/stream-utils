@@ -1,0 +1,32 @@
+{
+  "name": "@kjots/vinyl-fs-observable",
+  "version": "0.0.0",
+  "description": "Observable adapter for vinyl-fs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjots/stream-utils.git"
+  },
+  "keywords": [
+    "observable",
+    "adapter",
+    "vinyl-fs"
+  ],
+  "author": "Karl Juri Ots <kjots@kjots.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kjots/stream-utils/issues"
+  },
+  "homepage": "https://github.com/kjots/stream-utils/tree/master/packages/vinyl-fs-observable#readme",
+  "engines": {
+    "node": ">=12.14.1",
+    "npm": ">=6.13.4"
+  },
+  "dependencies": {
+    "@kjots/observable-stream": "^0.0.0",
+    "@kjots/stream-observable": "^0.0.0",
+    "rxjs": "^6.5.4",
+    "vinyl-fs": "^3.0.3"
+  }
+}
