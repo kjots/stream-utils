@@ -1,0 +1,28 @@
+{
+  "name": "@kjots/stream-observable",
+  "version": "0.0.0",
+  "description": "Stream Observable",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjots/stream-utils.git"
+  },
+  "keywords": [
+    "stream",
+    "observable"
+  ],
+  "author": "Karl Juri Ots <kjots@kjots.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kjots/stream-utils/issues"
+  },
+  "homepage": "https://github.com/kjots/stream-utils/tree/master/packages/stream-observable#readme",
+  "engines": {
+    "node": ">=12.14.1",
+    "npm": ">=6.13.4"
+  },
+  "dependencies": {
+    "rxjs": "^6.5.4"
+  }
+}
