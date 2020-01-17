@@ -13,3 +13,5 @@
 /tmp/
 /index.js
 /index.js.map
+/bin/**/*.js
+/bin/**/*.js.map

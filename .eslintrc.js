@@ -28,6 +28,12 @@ module.exports = {
     },
     overrides: [
         {
+            files: [ 'index.mjs', 'bin/doit.mjs', 'bin/doit.spec.mjs'],
+            rules: {
+                'no-console': [ 'allow']
+            }
+        },
+        {
             files: [ '**/*.spec.mjs' ],
             env: {
                 mocha: true
