@@ -1,0 +1,27 @@
+{
+  "name": "@kjots/stream-utils",
+  "version": "0.0.0",
+  "description": "Stream utilities",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjots/stream-utils.git"
+  },
+  "keywords": [
+    "stream",
+    "utils"
+  ],
+  "author": "Karl Juri Ots <kjots@kjots.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kjots/stream-utils/issues"
+  },
+  "homepage": "https://github.com/kjots/stream-utils/tree/master/packages/stream-utils#readme",
+  "dependencies": {
+    "rxjs": "^6.5.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
