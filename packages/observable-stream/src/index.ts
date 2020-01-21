@@ -2,7 +2,7 @@ import { streamObservable } from '@kjots/stream-observable';
 
 import { Readable } from 'stream';
 
-import { merge, Observable, Subject } from 'rxjs';
+import { merge, Observable, Observer, Subject } from 'rxjs';
 
 import ReadableStream = NodeJS.ReadableStream;
 import ReadWriteStream = NodeJS.ReadWriteStream;
@@ -94,17 +94,18 @@ export function observableStream<T>(observable: Observable<T>): ReadableStream {
 }
 
 export function through<T, R = T>(...transforms: Array<ReadWriteStream>): (observable: Observable<T>) => Observable<R> {
-  return (observable: Observable<T>) => {
+  return (observable: Observable<T>) => new Observable<R>((observer: Observer<R>) => {
     const errorSubject = new Subject<any>();
 
     return merge(errorSubject, streamObservable(
       transforms
-        .reduce((stream, transform) =>
-          stream
+        .reduce(
+          (stream, transform) => stream
             .on('error', error => errorSubject.error(error))
-            .pipe(transform), observableStream(observable)
+            .pipe(transform),
+          observableStream(observable)
         )
         .on('end', () => errorSubject.complete())
-    ));
-  };
+    )).subscribe(observer);
+  });
 }
