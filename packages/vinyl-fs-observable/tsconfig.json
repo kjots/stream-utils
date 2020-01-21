@@ -3,8 +3,8 @@
   "compilerOptions": {
     "composite": true,
     "baseUrl": "./",
-    "rootDir": "./src",
-    "outDir": "./dist",
+    "rootDir": ".",
+    "outDir": ".",
     "paths": {
       "@kjots/observable-stream": [
         "../observable-stream"
@@ -25,6 +25,9 @@
     { "path": "../stream-observable" }
   ],
   "include": [
-    "src/**/*"
+    "**/*.ts"
+  ],
+  "exclude": [
+    "**/*.d.ts"
   ]
 }
