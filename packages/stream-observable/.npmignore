@@ -1,10 +1,10 @@
 /node_modules/
 /.npmignore
 
-/dist/**/*.spec.d.ts
-/dist/**/*.spec.js
-/dist/**/*.spec.js.map
-/src/**/*.spec.ts
+/**/*.spec.d.ts
+/**/*.spec.js
+/**/*.spec.js.map
+/**/*.spec.ts
 /tsconfig.json
 /tsconfig.tsbuildinfo
 /tslint.json

@@ -2,8 +2,8 @@
   "name": "@kjots/stream-observable",
   "version": "0.2.0",
   "description": "Stream Observable",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kjots/stream-utils.git"

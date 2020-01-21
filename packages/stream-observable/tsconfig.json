@@ -3,10 +3,13 @@
   "compilerOptions": {
     "composite": true,
     "baseUrl": "./",
-    "rootDir": "./src",
-    "outDir": "./dist"
+    "rootDir": ".",
+    "outDir": "."
   },
   "include": [
-    "src/**/*"
+    "**/*.ts"
+  ],
+  "exclude": [
+    "**/*.d.ts"
   ]
 }
