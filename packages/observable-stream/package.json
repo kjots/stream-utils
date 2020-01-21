@@ -1,6 +1,6 @@
 {
   "name": "@kjots/observable-stream",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Observable Stream",
   "main": "index.js",
   "types": "index.d.ts",
@@ -23,7 +23,7 @@
     "npm": ">=6.13.4"
   },
   "dependencies": {
-    "@kjots/stream-observable": "^0.2.0",
+    "@kjots/stream-observable": "^0.2.1",
     "rxjs": "^6.5.4"
   }
 }
