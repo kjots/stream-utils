@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/kjots/stream-utils/compare/v0.2.1...v0.3.0) (2020-01-22)
+
+
+### Features
+
+* **observable-stream:** make package public ([85daf94](https://github.com/kjots/stream-utils/commit/85daf941742ede8b37086c1c813ad1cd96d21650))
+* **stream-observable:** make package public ([84b02f1](https://github.com/kjots/stream-utils/commit/84b02f1231072ad6be5a473db290e02fc548c995))
+* **vinyl-fs-observable:** make package public ([2f1c6ce](https://github.com/kjots/stream-utils/commit/2f1c6ce516b779c73c6363df057c0975743d1e5a))
+
+
+
+
+
 ## [0.2.1](https://github.com/kjots/stream-utils/compare/v0.2.0...v0.2.1) (2020-01-21)
 
 

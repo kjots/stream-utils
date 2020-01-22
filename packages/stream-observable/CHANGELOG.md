@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/kjots/stream-utils/compare/v0.2.1...v0.3.0) (2020-01-22)
+
+
+### Features
+
+* **stream-observable:** make package public ([84b02f1](https://github.com/kjots/stream-utils/commit/84b02f1231072ad6be5a473db290e02fc548c995))
+
+
+
+
+
 ## [0.2.1](https://github.com/kjots/stream-utils/compare/v0.2.0...v0.2.1) (2020-01-21)
 
 **Note:** Version bump only for package @kjots/stream-observable
