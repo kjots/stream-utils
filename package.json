@@ -16,13 +16,13 @@
     "test": "npm-run-all test:observable-stream test:stream-observable test:vinyl-fs-observable",
     "test:observable-stream": "npm-run-all test:observable-stream:lint test:observable-stream:mocha",
     "test:observable-stream:lint": "tslint --project packages/observable-stream",
-    "test:observable-stream:mocha": "mocha --require ts-node/register packages/observable-stream/**/*.spec.ts",
+    "test:observable-stream:mocha": "mocha --require ts-node/register 'packages/observable-stream/{,!(node_modules)/**/}*.spec.ts'",
     "test:stream-observable": "npm-run-all test:stream-observable:lint test:stream-observable:mocha",
     "test:stream-observable:lint": "tslint --project packages/stream-observable",
-    "test:stream-observable:mocha": "mocha --require ts-node/register packages/stream-observable/**/*.spec.ts",
+    "test:stream-observable:mocha": "mocha --require ts-node/register 'packages/stream-observable/{,!(node_modules)/**/}*.spec.ts'",
     "test:vinyl-fs-observable": "npm-run-all test:vinyl-fs-observable:lint test:vinyl-fs-observable:mocha",
     "test:vinyl-fs-observable:lint": "tslint --project packages/vinyl-fs-observable",
-    "test:vinyl-fs-observable:mocha": "mocha --require ts-node/register packages/vinyl-fs-observable/**/*.spec.ts"
+    "test:vinyl-fs-observable:mocha": "mocha --require ts-node/register 'packages/vinyl-fs-observable/{,!(node_modules)/**/}*.spec.ts'"
   },
   "repository": {
     "type": "git",
