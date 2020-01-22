@@ -28,5 +28,8 @@
     "@kjots/stream-observable": "^0.2.1",
     "rxjs": "^6.5.4",
     "vinyl-fs": "^3.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
