@@ -1,6 +1,6 @@
 {
   "name": "@kjots/vinyl-fs-observable",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Observable adapter for vinyl-fs",
   "main": "index.js",
   "types": "index.d.ts",
@@ -24,8 +24,8 @@
     "npm": ">=6.13.4"
   },
   "dependencies": {
-    "@kjots/observable-stream": "^0.3.1",
-    "@kjots/stream-observable": "^0.3.1",
+    "@kjots/observable-stream": "^0.3.2",
+    "@kjots/stream-observable": "^0.3.2",
     "rxjs": "^6.5.4",
     "vinyl-fs": "^3.0.3"
   },
