@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/kjots/stream-utils/tree/master/packages/vinyl-fs-observable#readme",
   "engines": {
-    "node": ">=12.15.0",
+    "node": ">=12.16.0",
     "npm": ">=6.13.4"
   },
   "dependencies": {

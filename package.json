@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/kjots/stream-utils#readme",
   "engines": {
-    "node": ">=12.15.0",
+    "node": ">=12.16.0",
     "npm": ">=6.13.4"
   },
   "devDependencies": {
