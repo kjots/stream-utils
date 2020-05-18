@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.4](https://github.com/kjots/stream-utils/compare/v0.3.3...v0.3.4) (2020-05-18)
+
+
+### Bug Fixes
+
+* **stream-observable:** update to use `rxjs` version `6.5.5` ([27990eb](https://github.com/kjots/stream-utils/commit/27990eb5dd05db65637fafdadf289d3ef74d0ccf))
+
+
+
+
+
 ## [0.3.3](https://github.com/kjots/stream-utils/compare/v0.3.2...v0.3.3) (2020-04-02)
 
 **Note:** Version bump only for package @kjots/stream-observable
