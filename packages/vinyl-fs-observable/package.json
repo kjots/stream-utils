@@ -19,10 +19,6 @@
     "url": "https://github.com/kjots/stream-utils/issues"
   },
   "homepage": "https://github.com/kjots/stream-utils/tree/master/packages/vinyl-fs-observable#readme",
-  "engines": {
-    "node": ">=12.16.1",
-    "npm": ">=6.13.4"
-  },
   "dependencies": {
     "@kjots/observable-stream": "^0.3.3",
     "@kjots/stream-observable": "^0.3.3",

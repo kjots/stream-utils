@@ -18,10 +18,6 @@
     "url": "https://github.com/kjots/stream-utils/issues"
   },
   "homepage": "https://github.com/kjots/stream-utils/tree/master/packages/observable-stream#readme",
-  "engines": {
-    "node": ">=12.16.1",
-    "npm": ">=6.13.4"
-  },
   "dependencies": {
     "@kjots/stream-observable": "^0.3.3",
     "rxjs": "^6.5.4"
