@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/kjots/stream-utils/tree/master/packages/stream-observable#readme",
   "dependencies": {
-    "rxjs": "^6.5.4"
+    "rxjs": "^6.5.5"
   },
   "publishConfig": {
     "access": "public"
