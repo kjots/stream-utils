@@ -22,7 +22,7 @@
   "dependencies": {
     "@kjots/observable-stream": "^0.3.4",
     "@kjots/stream-observable": "^0.3.4",
-    "rxjs": "^6.5.5",
+    "rxjs": "^6.6.0",
     "vinyl-fs": "^3.0.3"
   },
   "publishConfig": {
