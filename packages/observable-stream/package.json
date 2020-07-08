@@ -1,6 +1,6 @@
 {
   "name": "@kjots/observable-stream",
-  "version": "0.3.4",
+  "version": "1.0.0",
   "description": "Observable Stream",
   "main": "index.js",
   "types": "index.d.ts",
@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/kjots/stream-utils/tree/master/packages/observable-stream#readme",
   "dependencies": {
-    "@kjots/stream-observable": "^0.3.4",
+    "@kjots/stream-observable": "^1.0.0",
     "rxjs": "^6.6.0"
   },
   "publishConfig": {
