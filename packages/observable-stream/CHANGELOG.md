@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/kjots/stream-utils/compare/v1.0.0...v1.0.1) (2020-07-13)
+
+
+### Bug Fixes
+
+* **observable-stream:** update to not include `.iml` files in published package ([191b8b8](https://github.com/kjots/stream-utils/commit/191b8b836b07acb306937a3c937c725cc0832dec))
+
+
+
+
+
 # [1.0.0](https://github.com/kjots/stream-utils/compare/v0.3.4...v1.0.0) (2020-07-08)
 
 **Note:** Version bump only for package @kjots/observable-stream
